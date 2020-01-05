@@ -1,7 +1,7 @@
 # Leetcode
 
 ## Data Structure and Algorithm
-Array
+**[Array](https://github.com/AddyZhang/Leetcode/tree/master/Data%20Structure%20and%20Algorithm/Array)**
 Dynamic Programming
 
 ## SQL
