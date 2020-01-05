@@ -16,6 +16,8 @@
 
 **[Dynamic Programming](https://github.com/AddyZhang/Leetcode/tree/master/Data%20Structure%20and%20Algorithm/DP)**
 
+**[Binary Search](https://github.com/AddyZhang/Leetcode/tree/master/Data%20Structure%20and%20Algorithm/Binary%20Search)**
+
 **[Design](https://github.com/AddyZhang/Leetcode/tree/master/Data%20Structure%20and%20Algorithm/Design)**
 
 **[Two Pointers](https://github.com/AddyZhang/Leetcode/tree/master/Data%20Structure%20and%20Algorithm/Two%20Pointers)**
