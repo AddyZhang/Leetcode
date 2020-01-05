@@ -1,0 +1,9 @@
+SELECT
+    q1.person_name as person_name
+FROM queue q1
+Join queue q2
+On q1.turn >= q2.turn
+group by q1.turn
+Having sum(q2.weight) <=1000
+Order By q1.turn desc
+limit 1
