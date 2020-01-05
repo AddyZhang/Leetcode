@@ -9,6 +9,8 @@
 
 **[Hash Table](https://github.com/AddyZhang/Leetcode/tree/master/Data%20Structure%20and%20Algorithm/Hash%20Table)**
 
+**[String](https://github.com/AddyZhang/Leetcode/tree/master/Data%20Structure%20and%20Algorithm/String)**
+
 ## Algorithm
 **[Breadth-first Search](https://github.com/AddyZhang/Leetcode/tree/master/Data%20Structure%20and%20Algorithm/BFS)**
 
