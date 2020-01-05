@@ -7,6 +7,8 @@
 
 **[Design](https://github.com/AddyZhang/Leetcode/tree/master/Data%20Structure%20and%20Algorithm/Design)**
 
+**[Two Pointers](https://github.com/AddyZhang/Leetcode/tree/master/Data%20Structure%20and%20Algorithm/Two%20Pointers)**
+
 ## SQL
 Write complex **[Queries](https://github.com/AddyZhang/Leetcode/tree/master/SQL)** from Leetcode
 
