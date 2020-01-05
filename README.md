@@ -3,6 +3,8 @@
 ## Data Structure and Algorithm
 **[Array](https://github.com/AddyZhang/Leetcode/tree/master/Data%20Structure%20and%20Algorithm/Array)**
 
+**[Linked List](https://github.com/AddyZhang/Leetcode/tree/master/Data%20Structure%20and%20Algorithm/Linked%20List)**
+
 **[Hash Table](https://github.com/AddyZhang/Leetcode/tree/master/Data%20Structure%20and%20Algorithm/Hash%20Table)**
 
 **[Design](https://github.com/AddyZhang/Leetcode/tree/master/Data%20Structure%20and%20Algorithm/Design)**
