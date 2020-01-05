@@ -1,0 +1,10 @@
+select Name
+from
+    (
+    select CandidateId from Vote group by CandidateId 
+    order by count(*) desc limit 1
+    ) as win_tbl
+join
+    Candidate
+on 
+    CandidateId = Candidate.id
