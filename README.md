@@ -18,6 +18,8 @@
 
 **[Binary Search](https://github.com/AddyZhang/Leetcode/tree/master/Data%20Structure%20and%20Algorithm/Binary%20Search)**
 
+**[Divide and Conquer](https://github.com/AddyZhang/Leetcode/tree/master/Data%20Structure%20and%20Algorithm/Divide%20and%20Conquer)**
+
 **[Design](https://github.com/AddyZhang/Leetcode/tree/master/Data%20Structure%20and%20Algorithm/Design)**
 
 **[Two Pointers](https://github.com/AddyZhang/Leetcode/tree/master/Data%20Structure%20and%20Algorithm/Two%20Pointers)**
