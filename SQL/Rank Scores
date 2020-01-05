@@ -1,0 +1,5 @@
+select s.Score, count(t.Score) as Rank from
+(select distinct Score from Scores) as t, Scores as s
+where t.Score >= s.Score
+group by s.Score, s.Id
+order by s.Score desc
