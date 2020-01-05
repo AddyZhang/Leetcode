@@ -1,0 +1,19 @@
+SELECT
+    Department.Name as Department, 
+    Employee.Name as Employee,
+    Employee.Salary as Salary
+FROM
+    Employee
+JOIN
+    Department
+ON
+    Employee.DepartmentId = Department.Id
+WHERE
+    (Employee.DepartmentID, Salary) in
+    (   SELECT
+            DepartmentId, Max(Salary)
+        FROM
+            Employee
+        GROUP BY 
+            DepartmentId
+            )
