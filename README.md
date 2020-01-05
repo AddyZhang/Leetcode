@@ -5,6 +5,8 @@
 
 **[Hash Table](https://github.com/AddyZhang/Leetcode/tree/master/Data%20Structure%20and%20Algorithm/Hash%20Table)**
 
+**[Design](https://github.com/AddyZhang/Leetcode/tree/master/Data%20Structure%20and%20Algorithm/Design)**
+
 ## SQL
 Write complex **[Queries](https://github.com/AddyZhang/Leetcode/tree/master/SQL)** from Leetcode
 
