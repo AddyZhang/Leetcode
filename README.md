@@ -5,7 +5,6 @@ Array
 Dynamic Programming
 
 ## SQL
-Write some complex **[Queries](https://github.com/AddyZhang/Leetcode/blob/master/SQL/Second%20Highest%20Salary)**
+Write complex **[Queries](https://github.com/AddyZhang/Leetcode/tree/master/SQL)**
 
-[Second Highest Salary](https://github.com/AddyZhang/Leetcode/blob/master/SQL/Second%20Highest%20Salary)
  
