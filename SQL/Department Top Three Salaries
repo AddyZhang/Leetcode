@@ -1,0 +1,26 @@
+# Write your MySQL query statement below
+
+SELECT 
+        d.Name as Department, e1.Name as Employee, e1.Salary as Salary
+
+FROM
+        Employee as e1
+        
+JOIN
+        Department as d
+        
+ON      
+        e1.DepartmentId = d.Id 
+
+WHERE 
+        (
+            SELECT 
+                    count(distinct(e2.salary))
+            FROM
+                    Employee as e2
+            WHERE
+                    e1.DepartmentID = e2.DepartmentID
+            AND
+                    e1.Salary < e2.Salary
+        ) < 3;
+        
