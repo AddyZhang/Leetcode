@@ -1,0 +1,56 @@
+SELECT 
+        user_name as results 
+
+FROM
+        (
+        SELECT
+                u.name as user_name, count(m.movie_id) as cnt
+
+        FROM
+                Movie_Rating as m
+            
+        JOIN 
+                Users as u
+            
+        ON
+                m.user_id = u.user_id
+
+        GROUP BY
+                m.user_id
+        
+        ORDER BY 
+                cnt desc, user_name asc limit 1
+                
+        ) as first_query
+            
+UNION
+
+SELECT
+        movie_name as results
+
+FROM
+        (
+        SELECT
+                mm.title as movie_name, avg(mr.rating) as movie_rating
+
+        FROM
+                Movie_Rating as mr
+        
+        JOIN
+                Movies as mm
+            
+        ON
+                mr.movie_id = mm.movie_id
+            
+        WHERE
+                substr(mr.created_at,1,7) = '2020-02'
+
+        GROUP BY
+                mr.Movie_id
+        
+        ORDER BY
+                movie_rating desc, movie_name asc limit 1
+            
+        ) as second_query;
+
+        
