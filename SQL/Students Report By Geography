@@ -1,0 +1,59 @@
+
+SELECT 
+        America, Asia, Europe
+
+FROM 
+        (SELECT @as:= 0, @am:=0, @eu:=0 ) t,
+        
+        (
+        SELECT 
+                @as:=@as + 1 as as_id, name as Asia
+
+        FROM
+                student
+
+        WHERE 
+                continent = 'Asia'
+
+        ORDER BY 
+                Asia
+        ) t1
+        
+        RIGHT JOIN
+        
+        (
+        SELECT 
+                @am:=@am + 1 as am_id, name as America
+
+        FROM
+                student
+
+        WHERE 
+                continent = 'America'
+
+        ORDER BY 
+                America
+        ) t2
+        
+        ON 
+                as_id = am_id
+        
+        LEFT JOIN
+        
+        (
+        SELECT 
+                @eu:=@eu + 1 as eu_id, name as Europe
+
+        FROM
+                student
+
+        WHERE 
+                continent = 'Europe'
+
+        ORDER BY 
+                Europe
+        ) t3
+        
+        ON
+                am_id = eu_id
+        
